@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "sans-thin";
+    src: url("./Assets/fonts/NotoSansJP-Thin.ttf");
+  }
+  @font-face {
+    font-family: "sans-reg";
+    src: url("./Assets/fonts/NotoSansJP-Regular.ttf");
+  }
+  @font-face {
+    font-family: "sans-med";
+    src: url("./Assets/fonts/NotoSansJP-Medium.ttf");
+  }
+  @font-face {
+    font-family: "sans-bold";
+    src: url("./Assets/fonts/NotoSansJP-Bold.ttf");
+  }
+  @font-face {
+    font-family: "sans-black";
+    src: url("./Assets/fonts/NotoSansJP-Black.ttf");
+  }
+  /* ======================= GLOBAL STYLES ======================= */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "sans-reg", sans-serif;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+  }
+  h2 {
+    font-size: 44px;
+    line-height: 56px;
+    color: #222;
+  }
+  h4 {
+    font-size: 20px;
+    color: #222;
+  }
+  h6 {
+    font-family: "sans-bold";
+    font-size: 12px;
+  }
+  p {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0 20px 0;
+  }
+  .section-p1 {
+    padding: 40px 80px;
+  }
+  .section-m1 {
+    margin: 40px 0;
+  }
+  button.normal {
+    font-size: 14px;
+    font-family: "sans-med";
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all ease;
+  }
+  button.white {
+    font-size: 14px;
+    font-family: "sans-med";
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.2s all ease;
+  }
+  body {
+    width: 100%;
+  }
+  
