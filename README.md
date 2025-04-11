@@ -9,7 +9,6 @@ A modern, fully responsive static eCommerce website built with **HTML**, **CSS**
 Check out the live version here:  
 👉 [Live Demo](https://modern-ecom-site.vercel.app/)
 
-*Replace the link above with your actual live URL (e.g., GitHub Pages or Netlify).*
 
 ---
 
