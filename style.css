@@ -572,3 +572,96 @@ footer .copyright {
 #prodetails .single-pro-details span {
   line-height: 25px;
 }
+/* ================================================================= */
+/* ======================= BLOG PAGE ======================= */
+
+#page-header.blog-header {
+  background-image: url("./Assets/img/banner/b19.jpg");
+  background-position: top;
+}
+/* ======================= BLOG COMPONENT ======================= */
+#blog {
+  padding: 150px 150px 0 150px;
+}
+#blog .blog-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 90px;
+}
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+#blog .blog-details {
+  width: 50%;
+}
+#blog .blog-details a {
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+  font-family: "sans-bold";
+  position: relative;
+  transition: 0.3s;
+}
+#blog .blog-details a::after {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 9px;
+  right: -50px;
+}
+#blog .blog-details a:hover {
+  color: #088178;
+}
+#blog .blog-details a:hover::after {
+  background-color: #088178;
+}
+#blog .blog-box h1 {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  font-size: 70px;
+  font-family: "sans-bold";
+  color: #c9cbce;
+  z-index: -2;
+}
+/* ================================================================= */
+/* ======================= ABOUT PAGE ======================= */
+#page-header.about-header {
+  background-image: url("./Assets/img/about/banner.png");
+}
+/* ======================= ABOUT-HEAD COMPONENT ======================= */
+#about-head {
+  display: flex;
+  align-items: center;
+}
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+#about-head div {
+  padding-left: 40px;
+}
+/* ======================= ABOUT-APP COMPONENT ======================= */
+#about-app h1 {
+  text-align: center;
+}
+#about-app .video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+#about-app .video video {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
